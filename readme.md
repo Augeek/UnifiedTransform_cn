@@ -102,7 +102,7 @@ git clone https://github.com/changeweb/Unifiedtransform
 
 - Copy the contents of the `.env.example` file to create `.env` in the same directory
 
-- Run `php composer.phar install` for developer environment and run `php composer.phar install --no-dev` for production environment to install Laravel packages
+- Run `composer install` for developer environment and run `php composer.phar install --no-dev` for production environment to install Laravel packages
 
 - Generate `APP_KEY` using `php artisan key:generate`
 
